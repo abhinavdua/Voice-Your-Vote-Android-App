@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClick"
+        android:text="asdad" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="280dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/action_eating" />
+
+    	<ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="280dp"
+        android:layout_height="380dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/action_eating" />
+</RelativeLayout>
